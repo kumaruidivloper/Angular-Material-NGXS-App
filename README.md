@@ -24,7 +24,7 @@ Step14: add style.scss [@import '~material-design-icons/iconfont/material-icons.
 ## Install NGXS
 Step:15: npm install @ngxs/store --save  [Yarn: yarn add @ngxs/store]
 
-## Install Logger Plugin & Devtool Plugin
+## Install NGXS Logger Plugin & Devtool Plugin
 Step16: npm install @ngxs/store@dev --save
 Step17: npm install @ngxs/logger-plugin@dev --save [Yarn: yarn add @ngxs/logger-plugin @ngxs/devtools-plugin --dev]
 
