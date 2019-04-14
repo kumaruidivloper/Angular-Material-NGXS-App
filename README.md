@@ -1,23 +1,26 @@
-#ng new <App-name> --style=scss --routing
-
-Step1: npm install json-server
-Step2: create db.json
-Step3: Create some initial Data in db.json file
-Step4: Edit package.json start property ["start": "concurrently \"ng serve\" \"json-server --watch db.json\" ",]
-Step5: npm install concurrently
-Step6: npm run start [For run the app]
-
-#Install Angular Marerial
-Step7: npm install --save @angular/material @angular/cdk
-Step8: npm install --save @angular/animations
-Step9: npm install material-icons
-Step10: npm install --save hammerjs
-Step11: npm install material-design-icons
-Step12: add style.scss [@import '~material-design-icons/iconfont/material-icons.css';]
 
 # AngularMaterialNGXSApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+
+## Initial setup
+Step1: ng new <App-name> --style=scss --routing
+Step2: npm install json-server
+Step3: create db.json
+Step4: Create some initial Data in db.json file
+Step5: Edit package.json start property ["start": "concurrently \"ng serve\" \"json-server --watch db.json\" ",]
+Step6: npm install concurrently
+Step7: npm run start [For run the app]
+
+## Install Angular Marerial
+Step8: npm install --save @angular/material @angular/cdk  
+Step9: Add style.scss [@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';]
+Step10: npm install --save @angular/animations
+Step11: npm install material-icons
+Step12: npm install --save hammerjs
+Step13: npm install material-design-icons
+Step14: add style.scss [@import '~material-design-icons/iconfont/material-icons.css';]
+
 
 ## Development server
 
