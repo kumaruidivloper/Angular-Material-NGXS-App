@@ -28,6 +28,10 @@ Step:15: npm install @ngxs/store --save  [Yarn: yarn add @ngxs/store]
 Step16: npm install @ngxs/store@dev --save
 Step17: npm install @ngxs/logger-plugin@dev --save [Yarn: yarn add @ngxs/logger-plugin @ngxs/devtools-plugin --dev]
 
+## Delete Remote Branch & Local Branch
+LocalBranchDelete:  git branch -d branch_name / git branch -D branch_name
+RemoteBranchDelete: git push origin --delete {the_remote_branch}
+
 
 ## Development server
 
