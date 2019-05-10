@@ -2,7 +2,7 @@
     "customerDetails": [
       {
         "id": 1,
-        "Address": "SV Heights Apartments, Flat # B004, Next to Sobha Habbitech Apartments",
+        "Address": "SV Heights Apartments",
         "Blog": "C#Corner",
         "DOB": "14/04/2019",
         "Email": "kumar@gmail.com",
@@ -10,6 +10,17 @@
         "Gender": "Male",
         "IsAccepted": true,
         "LastName": "Shan"
+      },
+      {
+        "id": 2,
+        "Address": "BV Heights Apartments",
+        "Blog": "Appp",
+        "DOB": "15/07/2019",
+        "Email": "Vasuk@gmail.com",
+        "FirstName": "Vasu",
+        "Gender": "Female",
+        "IsAccepted": true,
+        "LastName": "Bala"
       }
     ]
   }

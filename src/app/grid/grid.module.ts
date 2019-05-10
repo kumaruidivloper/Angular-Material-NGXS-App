@@ -10,9 +10,9 @@ const routes: Routes = [
     { path: '', component: GridComponent },
     // { path: 'CustomerGrid', component: GridComponent },
     { path: 'addCustomer', component: FormComponent },
-    // { path: 'customer/:id/details', component: DetailComponent },
-    // { path: 'customer/:id/edit', component: FormComponent },
-    // { path: 'adduser', component: FormComponent }
+    { path: 'customer/:id/details', component: FormComponent },
+    { path: 'customer/:id/edit', component: FormComponent },
+    { path: 'adduser', component: FormComponent }
 ];
 
 @NgModule({
